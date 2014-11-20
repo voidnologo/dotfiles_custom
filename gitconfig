@@ -10,7 +10,7 @@
     deleted = red
     untracked = yellow
 [user]
-    name = void.no.logo
+    name = voidnologo
     email = void.no.logo@icloud.com
 [push]
     default = matching
