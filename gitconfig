@@ -14,3 +14,7 @@
     email = void.no.logo@icloud.com
 [push]
     default = matching
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
