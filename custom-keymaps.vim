@@ -1,6 +1,6 @@
-nnoremap <Leader>m :w<CR>
+" nnoremap <Leader>m :w<CR>
 
-nunmap <Leader>me
+" nunmap <Leader>me
 
 nnoremap <Leader>cl :set cursorline! <CR>
 nnoremap <Leader>cc :set cursorcolumn! <CR>
