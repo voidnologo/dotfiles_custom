@@ -43,7 +43,7 @@ hi MatchParen                  ctermfg=none   ctermbg=239    cterm=none
 hi ModeMsg                     ctermfg=143    ctermbg=none   cterm=bold
 hi MoreMsg                     ctermfg=143    ctermbg=none   cterm=none
 hi NonText                     ctermfg=239    ctermbg=none   cterm=none
-hi Normal                      ctermfg=250    ctermbg=235    cterm=none
+hi Normal                      ctermfg=250    ctermbg=233    cterm=none
 hi Number                      ctermfg=173    ctermbg=none   cterm=none
 hi Operator                    ctermfg=109    ctermbg=none   cterm=none
 hi Pmenu                       ctermfg=250    ctermbg=239    cterm=none
