@@ -1,1 +1,1 @@
-colorscheme knuckleduster
+colorscheme knights_color
