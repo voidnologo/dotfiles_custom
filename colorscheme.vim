@@ -1,1 +1,1 @@
-colorscheme knights_color
+colorscheme honeybadger
