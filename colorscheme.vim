@@ -1,2 +1,3 @@
 " colorscheme honeybadger
-colorscheme knuckleduster
+" colorscheme knuckleduster
+colorscheme monokai
