@@ -11,7 +11,7 @@
     untracked = yellow
 [user]
     name = voidnologo
-    email = void.no.logo@icloud.com
+    email = (none)
 [push]
     default = matching
 [filter "media"]

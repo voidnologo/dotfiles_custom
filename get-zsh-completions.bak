@@ -1,0 +1,8 @@
+echo "create completion directory"
+mkdir -p ~/dotfiles/custom-configs/dotfiles_custom/zsh/completions
+
+echo "getting hub zsh completions"
+curl https://raw.githubusercontent.com/github/hub/master/etc/hub.zsh_completion > ~/dotfiles/custom-configs/dotfiles_custom/zsh/completions/_hub
+
+echo "deleting ~/.zcompdump"
+rm ~/.zcompdump
