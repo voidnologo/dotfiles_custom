@@ -9,3 +9,4 @@ alias pyclean="find . -name '*.pyc' -delete"
 alias start-redis="sudo redis-server /usr/local/etc/redis.conf"
 alias showstash="git stash list | awk -F: '{ print \"\n\n\n\n\"; print $0; print \"\n\n\"; system(\"git stash show -p \" $1); }'"
 alias git="hub"
+alias git-track='function _gittrack(){ git branch --set-upstream-to=origin/"$1" "$1";};_gittrack'
