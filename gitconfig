@@ -12,6 +12,7 @@
 [user]
     name = voidnologo
     email = (none)
+	useConfigOnly = true
 [push]
     default = matching
 [filter "media"]

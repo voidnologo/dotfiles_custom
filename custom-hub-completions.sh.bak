@@ -1,4 +1,0 @@
-# hub completions
-fpath=(~/dotfiles/custom-configs/dotfiles_custom/zsh/completions $fpath)
-compinit
-compdef _hub git
