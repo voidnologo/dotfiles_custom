@@ -2,17 +2,6 @@
 # vim: set foldmarker=<<,>> foldlevel=0 foldmethod=marker:
 
 # General Settings <<1
-# Add Heroku Toolbelt to the path on osx <<2
-#-------------------------------------------------------------------------------
-if [ "$(uname)" = "Darwin" ]; then
-    PATH="/usr/local/heroku/bin:$PATH"
-fi
-# >>2
-# So we can Haskell <<2
-#-------------------------------------------------------------------------------
-if [ "$(uname)" = "Darwin" ]; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
 # >>2
 # Eliminate lag between transition from normal/insert mode <<2
 #-------------------------------------------------------------------------------
@@ -226,12 +215,6 @@ ipinfo() {
     curl freegeoip.net/json/$desiredIP | python -mjson.tool
 }
 # >>2
-# Export java cmd if jdk is installed <<2
-#--------------------------------------------------------------------
-# This seems like it is going to be a PITA with versions, but it works ATM.
-if [[ -s "/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/bin/java" ]]; then
-    export JAVA_CMD="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/bin/java"
-fi
 # >>2
 # Upwards directory traversal shortcut <<2
 #--------------------------------------------------------------------

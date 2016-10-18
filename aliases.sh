@@ -11,3 +11,5 @@ alias showstash="git stash list | awk -F: '{ print \"\n\n\n\n\"; print $0; print
 # alias git="hub"
 alias git-track='function _gittrack(){ git branch --set-upstream-to=origin/"$1" "$1";};_gittrack'
 alias which-tmux='tmux display-message -p "#S"'
+alias ec2="AWS_DEFAULT_PROFILE=prod-eb-cli /Users/imtapps/.virtualenvs/aws-fuzzy/bin/aws-fuzzy --key-path ~/.ssh/staging-key-bastion.pem --tunnel --tunnel-key-path 'staging-key-beanstalk.pem'"
+alias ec2-prod="AWS_DEFAULT_PROFILE=prod-eb-cli /Users/imtapps/.virtualenvs/aws-fuzzy/bin/aws-fuzzy --key-path ~/.ssh/production-key-bastion.pem --tunnel --tunnel-key-path 'production-key-beanstalk.pem'"
