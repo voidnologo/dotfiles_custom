@@ -17,3 +17,5 @@ alias mkvenv="mkvirtualenv $1"
 alias mkvenv3="mkvirtualenv $1 -ppython3.4"
 alias fixpip="pip install pip\<8"
 # alias webopen="python -c \"import webbrowser; webbrowser.open('$1')\""
+alias me="cat ~/.caleb"
+alias define='PYTHONPATH=/Users/imtapps/.virtualenvs/dictionary/lib/python3.6/site-packages /Users/imtapps/.virtualenvs/dictionary/bin/python /Users/imtapps/.virtualenvs/dictionary/bin/dict.py'

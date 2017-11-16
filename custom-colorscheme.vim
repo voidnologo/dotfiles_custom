@@ -1,8 +1,5 @@
-" colorscheme blue
-" colorscheme darkblue
 " colorscheme delek
 " colorscheme desert
-" colorscheme elflord
 " colorscheme evening
 " colorscheme harlem-nights
 " colorscheme honeybadger
@@ -15,14 +12,21 @@
 " colorscheme morning
 " colorscheme murphy
 " colorscheme pablo
-" colorscheme party-liquor
 " colorscheme peachpuff
 " colorscheme pop-rocks
 " colorscheme ron
 " colorscheme shine
 " colorscheme slate
 " colorscheme solarized
-colorscheme spartan
+" colorscheme spartan
 " colorscheme torte
 " colorscheme understated
 " colorscheme zellner
+" colorscheme hilal
+" colorscheme holokai
+" colorscheme iceberg
+" colorscheme gryffin
+colorscheme wombat
+" colorscheme molokai
+" colorscheme Monokai
+" bclear
