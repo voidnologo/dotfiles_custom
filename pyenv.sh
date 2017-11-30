@@ -1,1 +1,1 @@
-PATH=~/.pyenv/shims:$PATH
+# PATH=~/.pyenv/shims:$PATH
