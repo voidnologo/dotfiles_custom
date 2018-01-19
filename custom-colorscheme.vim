@@ -18,7 +18,7 @@
 " colorscheme shine
 " colorscheme slate
 " colorscheme solarized
-" colorscheme spartan
+colorscheme spartan
 " colorscheme torte
 " colorscheme understated
 " colorscheme zellner
@@ -26,7 +26,7 @@
 " colorscheme holokai
 " colorscheme iceberg
 " colorscheme gryffin
-colorscheme wombat
+" colorscheme wombat
 " colorscheme molokai
 " colorscheme Monokai
-" bclear
+" colorscheme bclear
