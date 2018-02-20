@@ -1,5 +1,7 @@
 alias p3m='python3 manage.py'
 alias p3='python3.6'
+alias p36='python3.6'
+alias p34='python3.4'
 alias py36='python3.6'
 alias py34='python3.4'
 alias sag='sudo apt-get'
@@ -22,3 +24,4 @@ alias fixpip="pip install pip\<8"
 # alias webopen="python -c \"import webbrowser; webbrowser.open('$1')\""
 alias define='PYTHONPATH=/Users/imtapps/.virtualenvs/dictionary/lib/python3.6/site-packages /Users/imtapps/.virtualenvs/dictionary/bin/python /Users/imtapps/.virtualenvs/dictionary/bin/dict.py'
 alias check-yapf='yapf . --recursive --diff --exclude="./jenkins-*" --style="{based_on_style: facebook, COLUMN_LIMIT: 120, BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF: true}" | grep "^+++" > reports/yapf.txt'
+alias now='date +%a%t%m/%d/%Y%t%H:%M:%S\ %z\(%Z\)'
