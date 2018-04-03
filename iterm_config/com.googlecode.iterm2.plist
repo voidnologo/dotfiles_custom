@@ -4522,11 +4522,11 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>108 127 1016 512 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-398 950 850 627 -398 800 1920 1080 </string>
+	<string>5 150 850 627 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-393 950 850 627 -398 800 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>-160 950 850 627 -398 800 1920 1080 </string>
+	<string>238 150 850 627 0 0 1280 800 </string>
 	<key>NeverWarnAboutShortLivedSessions_FF16A9CA-4D72-417C-99C1-C64ED8AED825</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -6853,7 +6853,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>B3619F96-DD45-437C-B0C6-D9DB3572EEC9</string>
 	<key>NoSyncLastTipTime</key>
-	<real>538064222.208413</real>
+	<real>539796361.17325604</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -6904,6 +6904,21 @@
 		<string>0036</string>
 		<string>0037</string>
 		<string>0038</string>
+		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+		<string>0048</string>
+		<string>0049</string>
+		<string>0050</string>
+		<string>0051</string>
+		<string>0052</string>
+		<string>0053</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -6913,6 +6928,8 @@
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>0</integer>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PassOnControlClick</key>
 	<false/>
 	<key>PasteFromClipboard</key>
@@ -6954,6 +6971,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/imtapps/dotfiles/custom-configs/dotfiles_custom/iterm_config</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -6971,7 +6990,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-01-17T21:19:19Z</date>
+	<date>2018-02-07T16:08:56Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
