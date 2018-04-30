@@ -4517,14 +4517,19 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSUserKeyEquivalents</key>
+	<dict>
+		<key>Close</key>
+		<string>@^w</string>
+	</dict>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>252 1316 620 392 -398 800 1920 1080 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>108 127 1016 512 0 0 1280 800 </string>
+	<string>-22 817 918 512 -323 800 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>5 150 850 627 0 0 1280 800 </string>
+	<string>0 150 960 627 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-393 950 850 627 -398 800 1920 1080 </string>
+	<string>0 150 1920 627 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>238 150 850 627 0 0 1280 800 </string>
 	<key>NeverWarnAboutShortLivedSessions_FF16A9CA-4D72-417C-99C1-C64ED8AED825</key>
@@ -5290,7 +5295,7 @@
 					<key>partial</key>
 					<true/>
 					<key>regex</key>
-					<string>OK</string>
+					<string>OK$</string>
 				</dict>
 				<dict>
 					<key>action</key>
@@ -6853,7 +6858,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>B3619F96-DD45-437C-B0C6-D9DB3572EEC9</string>
 	<key>NoSyncLastTipTime</key>
-	<real>539796361.17325604</real>
+	<real>541970575.56439304</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -6919,6 +6924,24 @@
 		<string>0051</string>
 		<string>0052</string>
 		<string>0053</string>
+		<string>0054</string>
+		<string>0055</string>
+		<string>0056</string>
+		<string>0057</string>
+		<string>0058</string>
+		<string>0059</string>
+		<string>0060</string>
+		<string>0061</string>
+		<string>0062</string>
+		<string>0063</string>
+		<string>0064</string>
+		<string>0065</string>
+		<string>0066</string>
+		<string>0067</string>
+		<string>0068</string>
+		<string>0069</string>
+		<string>0070</string>
+		<string>0071</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -6990,7 +7013,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-02-07T16:08:56Z</date>
+	<date>2018-04-04T02:57:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
