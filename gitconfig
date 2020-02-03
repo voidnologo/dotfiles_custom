@@ -10,7 +10,7 @@
     deleted = red
     untracked = yellow
 [user]
-    name = voidnologo
+	name = Caleb Salt
     email = (none)
 	useConfigOnly = true
 [push]
