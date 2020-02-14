@@ -7,6 +7,7 @@
 "" Plugin Configurations
 "===============================================================================
 let g:black_skip_string_normalization = 1
+let g:black_linelength = 100
 
 "===============================================================================
 " Plugin Keymappings

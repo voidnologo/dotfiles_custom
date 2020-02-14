@@ -10,6 +10,8 @@
 	<false/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -4521,10 +4523,12 @@
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>0 163 224 275 0 0 1440 877 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>-527 1398 620 392 -1177 900 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 244 752 627 0 0 1440 877 </string>
+	<string>353 237 850 627 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>33 229 850 627 0 0 1440 877 </string>
+	<string>-58 1150 850 627 -256 900 1920 1080 </string>
 	<key>NeverWarnAboutShortLivedSessions_FF16A9CA-4D72-417C-99C1-C64ED8AED825</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -6843,6 +6847,13 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
+		<string>3.3.7</string>
+		<string>3.3.8</string>
+	</array>
+	<key>NoSyncBFPRecents</key>
+	<array>
+		<string>JetBrains Mono</string>
+		<string>Fira Code</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
@@ -6854,15 +6865,17 @@
 	<key>NoSyncInstallationId</key>
 	<string>BA4F34E4-9BE4-4131-B313-39BAB3938FE8</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>4</integer>
+	<integer>27</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>594070260.76351905</real>
+	<real>594742777.20343602</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -7633,8 +7646,10 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-10-27T19:37:58Z</date>
+	<date>2020-02-08T19:47:23Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SavePasteHistory</key>
 	<true/>
@@ -7697,7 +7712,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.6</string>
+	<string>3.3.8</string>
 	<key>kCPFavoritesUserDefaultsKey</key>
 	<array>
 		<data>
