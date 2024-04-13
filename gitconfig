@@ -10,8 +10,8 @@
     deleted = red
     untracked = yellow
 [user]
-    name = voidnologo
-    email = (none)
+	name = Caleb Salt
+	email = dev@voidnologo.com
 	useConfigOnly = true
 [push]
     default = matching
@@ -19,3 +19,5 @@
     clean = git media clean %f
     smudge = git media smudge %f
     required = true
+[init]
+	defaultBranch = main

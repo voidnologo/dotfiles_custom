@@ -1,3 +1,4 @@
+" colorscheme apprentice
 " colorscheme delek
 " colorscheme desert
 " colorscheme evening
@@ -6,8 +7,6 @@
 " colorscheme hybrid
 " colorscheme industry
 " colorscheme knuckleduster
-" colorscheme koehler
-" colorscheme milquetoast
 " colorscheme monokai
 " colorscheme morning
 " colorscheme murphy
@@ -18,7 +17,6 @@
 " colorscheme shine
 " colorscheme slate
 " colorscheme solarized
-colorscheme spartan
 " colorscheme torte
 " colorscheme understated
 " colorscheme zellner
@@ -29,4 +27,8 @@ colorscheme spartan
 " colorscheme wombat
 " colorscheme molokai
 " colorscheme Monokai
+"
 " colorscheme bclear
+" colorscheme spartan
+" colorscheme iceberg
+colorscheme thermopylae
