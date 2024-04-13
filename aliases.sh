@@ -1,3 +1,4 @@
+# alias git="hub"
 # alias webopen="python -c \"import webbrowser; webbrowser.open('$1')\""
 alias calendar='python -c "import calendar; import sys; from datetime import date; print(calendar.calendar(int(sys.argv[1]) if len(sys.argv) > 1 else date.today().year))" $1'
 alias check-yapf='yapf . --recursive --diff --exclude="./jenkins-*" --style="{based_on_style: facebook, COLUMN_LIMIT: 120, BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF: true}" | grep "^+++" > reports/yapf.txt'
@@ -22,4 +23,5 @@ alias utc='date -u +%a%t%m/%d/%Y%t%H:%M:%S\ %z\(%Z\)'
 alias uuid4='python -c "import uuid; print(uuid.uuid4(), end=\"\")" | pbcopy'
 alias weather='curl wttr.in/37421'
 alias webopen="python -c \"import webbrowser; webbrowser.open('$1')\""
+alias when='now; utc'
 alias which-tmux='tmux display-message -p "#S"'

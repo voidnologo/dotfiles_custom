@@ -22,13 +22,13 @@
 " colorscheme zellner
 " colorscheme hilal
 " colorscheme holokai
-" colorscheme iceberg
 " colorscheme gryffin
 " colorscheme wombat
 " colorscheme molokai
 " colorscheme Monokai
 "
 " colorscheme bclear
-" colorscheme spartan
+colorscheme spartan
 " colorscheme iceberg
-colorscheme thermopylae
+" colorscheme thermopylae
+" colorscheme iceberg
