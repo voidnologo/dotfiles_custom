@@ -28,7 +28,7 @@
 " colorscheme Monokai
 "
 " colorscheme bclear
-colorscheme spartan
+" colorscheme spartan
 " colorscheme iceberg
 " colorscheme thermopylae
-" colorscheme iceberg
+colorscheme iceberg
