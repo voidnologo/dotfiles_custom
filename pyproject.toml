@@ -1,0 +1,54 @@
+[project]
+name = ""
+authors = [{name = "voidnologo", email = "dev@voidnologo.com"}]
+keywords = []
+description = "README.md"
+requires-python = ">=3.12"
+dynamic = ["version", "dependencies", "optional-dependencies"]
+
+[project.urls]
+Homepage = "https://voidnologo.com"
+
+[tool.pytest.ini_options]
+markers = [
+    "bulk: marks tests as bulk data (deselect with '-m \"not bulk\"')",
+    "integration: marks tests as integration",
+]
+# norecursedirs = [
+#     # wip
+# ]
+# env_files = [
+#     ".env.test"
+# ]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+  # pycodestyle
+  "E",
+  # PyFlakes
+  "F",
+  # isort
+  "I",
+  # pyupgrade
+  "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/**.py" = ["E711", "I001"]
+"tests/**.py" = ["E501"]
+
+[tool.black]
+line-length = 120
+target-version = ['py312']
+exclude = '''
+/(
+  | \.git
+  | \.venv
+ )
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 120
