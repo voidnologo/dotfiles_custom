@@ -29,6 +29,9 @@
 "
 " colorscheme bclear
 " colorscheme spartan
-" colorscheme iceberg
 " colorscheme thermopylae
 colorscheme iceberg
+
+
+" hybrid_reverse
+" habamax

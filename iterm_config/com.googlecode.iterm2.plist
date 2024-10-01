@@ -6386,10 +6386,8 @@
 	<false/>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Paste History</string>
-		<string>Notes</string>
-		<string>Paste History</string>
 		<string>Command History</string>
+		<string>Paste History</string>
 	</array>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
