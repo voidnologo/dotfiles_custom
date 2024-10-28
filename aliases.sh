@@ -25,3 +25,5 @@ alias weather='curl wttr.in/37421'
 alias webopen="python -c \"import webbrowser; webbrowser.open('$1')\""
 alias when='now; utc'
 alias which-tmux='tmux display-message -p "#S"'
+
+alias telegraph-staging-flower="docker run -p 5555:5555 -e CELERY_BROKER_URL=redis://tg-staging-redis.xjsvsc.0001.use2.cache.amazonaws.com:6379 mher/flower:latest"
