@@ -33,5 +33,5 @@
 colorscheme iceberg
 
 
-" hybrid_reverse
-" habamax
+" colorscheme hybrid_reverse
+" colorscheme habamax
