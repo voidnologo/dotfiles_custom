@@ -30,7 +30,8 @@
 " colorscheme bclear
 " colorscheme spartan
 " colorscheme thermopylae
-colorscheme iceberg
+" colorscheme iceberg
+colorscheme nord_teal
 
 
 " colorscheme hybrid_reverse

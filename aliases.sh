@@ -20,3 +20,4 @@ alias prep_test='./temp/start_test_env'
 alias telegraph-staging-flower="docker run -p 5555:5555 -e CELERY_BROKER_URL=redis://tg-staging-redis.xjsvsc.0001.use2.cache.amazonaws.com:6379 mher/flower:latest"
 alias refresh='docker compose -f tests/docker-compose.yml down -v && docker compose -f tests/docker-compose.yml up -d'
 alias run_test='pytest tests --ignore tests/util/stedi/test_adapter.py --disable-warnings'
+alias uv-sync='uv sync --active'
