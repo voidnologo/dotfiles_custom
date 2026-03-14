@@ -21,3 +21,23 @@ alias telegraph-staging-flower="docker run -p 5555:5555 -e CELERY_BROKER_URL=red
 alias refresh='docker compose -f tests/docker-compose.yml down -v && docker compose -f tests/docker-compose.yml up -d'
 alias run_test='pytest tests --ignore tests/util/stedi/test_adapter.py --disable-warnings'
 alias uv-sync='uv sync --active'
+
+# PostgreSQL
+alias psql-start='sudo systemctl start postgresql'
+alias psql-stop='sudo systemctl stop postgresql'
+
+# Audio
+alias headphone-check='amixer -c 3 sget Headphone'
+alias headphone-fix='amixer -c 3 sset Headphone 100% on'
+
+# Sleep inhibitor
+alias nosleep-on='source ~/dotfiles/custom-configs/dotfiles_custom/nosleep.sh on'
+alias nosleep-off='source ~/dotfiles/custom-configs/dotfiles_custom/nosleep.sh off'
+alias nosleep-status='source ~/dotfiles/custom-configs/dotfiles_custom/nosleep.sh status'
+
+# Nvidia
+alias watch='watch -n 1 nvidia-smi'
+
+# Docker
+alias docker-start='sudo systemctl start docker'
+alias docker-stop='sudo systemctl stop docker docker.socket'
