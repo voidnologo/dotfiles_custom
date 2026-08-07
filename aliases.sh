@@ -27,8 +27,8 @@ alias psql-start='sudo systemctl start postgresql'
 alias psql-stop='sudo systemctl stop postgresql'
 
 # Audio
-alias headphone-check='amixer -c 3 sget Headphone'
-alias headphone-fix='amixer -c 3 sset Headphone 100% on'
+alias headphone-check='amixer -c 2 sget Headphone'
+alias headphone-fix='amixer -c 2 sset Headphone 100% on'
 
 # Sleep inhibitor
 alias nosleep-on='source ~/dotfiles/custom-configs/dotfiles_custom/nosleep.sh on'
@@ -38,6 +38,11 @@ alias nosleep-status='source ~/dotfiles/custom-configs/dotfiles_custom/nosleep.s
 # Nvidia
 alias watch='watch -n 1 nvidia-smi'
 
+# KDE Plasma
+alias restart-kde='kwin_wayland --replace & disown && plasmashell --replace & disown'
+
 # Docker
 alias docker-start='sudo systemctl start docker'
 alias docker-stop='sudo systemctl stop docker docker.socket'
+
+alias open='xdg-open'
