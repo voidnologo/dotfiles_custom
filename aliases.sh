@@ -38,6 +38,11 @@ alias nosleep-status='source ~/dotfiles/custom-configs/dotfiles_custom/nosleep.s
 # Nvidia
 alias watch='watch -n 1 nvidia-smi'
 
+# bikiri-linux is hybrid AMD iGPU (default renderer) + NVIDIA dGPU - the external
+# monitor port is wired directly to the dGPU for output, but rendering still
+# defaults to the iGPU. Force dGPU rendering for anything launched this way.
+alias steam='env __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam'
+
 # KDE Plasma
 alias restart-kde='kwin_wayland --replace & disown && plasmashell --replace & disown'
 
