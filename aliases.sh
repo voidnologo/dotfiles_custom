@@ -22,6 +22,12 @@ alias refresh='docker compose -f tests/docker-compose.yml down -v && docker comp
 alias run_test='pytest tests --ignore tests/util/stedi/test_adapter.py --disable-warnings'
 alias uv-sync='uv sync --active'
 
+# Editor
+# Default to neovim so the habit sticks; `vi` is the escape hatch to real vim.
+# `command` is required - a bare `vim` here re-expands through the alias above.
+alias vim='nvim'
+alias vi='command vim'
+
 # PostgreSQL
 alias psql-start='sudo systemctl start postgresql'
 alias psql-stop='sudo systemctl stop postgresql'

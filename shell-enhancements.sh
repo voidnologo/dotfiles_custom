@@ -36,7 +36,6 @@ alias ts='tig status'
 alias delete_pyc='find . -name \*.pyc -exec rm \{\} \+'
 alias c='clear'
 alias vom='vim'
-alias vi='nvim'
 alias cljs='planck'
 # >>1
 
